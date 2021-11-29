@@ -1,1 +1,13 @@
-/* You can add global styles to this file, and also import other style files */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+
+body {
+  background: linear-gradient(
+    90.46deg,
+    #62b2ff 0.38%,
+    #6e9aff 0.38%,
+    #63b0ff 0.39%,
+    #7985ff 107.63%,
+    #6d9cff 107.63%
+  );
+  font-family: "Poppins", sans-serif;
+}

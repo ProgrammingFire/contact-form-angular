@@ -1,0 +1,18 @@
+<input
+  [type]="type"
+  *ngIf="!isTextArea"
+  [placeholder]="label | uppercase"
+  [name]="label"
+  [id]="label"
+  [required]="required"
+/>
+
+<textarea
+  [name]="label"
+  [id]="label"
+  [placeholder]="label | uppercase"
+  *ngIf="isTextArea"
+  [required]="required"
+  cols="30"
+  rows="10"
+></textarea>
